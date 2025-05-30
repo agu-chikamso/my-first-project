@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Create Account</title>
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body class="signin-page">
+    <div id="signin-container">
+      <header class="header1">
+        <div class="header1-top">
+          <div class="logo">
+            <h2>LOGO</h2>
+          </div>
+      
+          <div class="dropdown-container">
+            <i class="fa-solid fa-ellipsis-v dropdown-btn"></i>
+            <div class="dropdown-content">
+              <a href="welcome.html">Home</a>
+              <a href="signup.html">Create Account</a>
+              <a href="welcome.html">welcome</a>
+              <a href="welcome.html">Home</a>
+              <a href="welcome.html">Home</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="header1-bottom">
+          <p>We provide a full range of forex<br /> trading services to you</p>
+        </div>
+      </header>
+      
+      <main class="main-container">
+        <form action="#">
+          <div class="email-wrapper">
+            <label for="email">Your email</label>
+            <div class="email">
+              <input type="email" name="email" id="email" placeholder="youremail@gmail.com">
+              <i class="fas fa-check"></i>
+            </div>
+          </div>
+      
+          <div class="password-wrapper">
+            <label for="password">Password</label>
+            <div class="password">
+              <input type="password" name="password" id="password" placeholder="*******************">
+              <i class="fa-solid fa-eye" id="togglePassword"></i>
+            </div>
+          </div>
+        </form>
+      
+        <div class="signin-options">
+          <button class="create-btn">CREATE ACCOUNT</button>
+
+          <a href="#" class="link">Or Signin with Google</a>
+
+          <button class="google-btn">
+            <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google Logo" width="20"/>
+            Google
+          </button>
+
+          <button class="facebook-btn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook Logo" width="20"/>
+            Facebook
+          </button>
+
+          <p class="account">
+            You have an account?
+            <a href="">Sign in</a>
+          </p>
+        </div>
+        </main>
+
+        <footer class="footer">
+          <i class="fas fa-home"></i>
+          <i class="fas fa-wallet"></i>
+          <i class="fas fa-heartbeat"></i>
+          <div>
+            <i class="fas fa-arrow-right"></i>
+            <i class="fas fa-arrow-left"></i>
+          </div>
+        </footer>
+    </div>
+  </body>
+</html>
